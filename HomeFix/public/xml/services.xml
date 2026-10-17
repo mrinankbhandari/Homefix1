@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="services.xsl"?>
+<!DOCTYPE services SYSTEM "services.dtd">
+<services version="1.0" generated="2026-10-18">
+    <marketplace>
+        <name>HomeFix</name>
+        <description>Trusted local services marketplace connecting homeowners with verified professionals</description>
+        <city>Mumbai</city>
+        <state>Maharashtra</state>
+        <country>India</country>
+        <currency>INR</currency>
+    </marketplace>
+
+    <categories>
+        <category>
+            <cat_id>1</cat_id>
+            <cat_name>Electrician</cat_name>
+            <icon>⚡</icon>
+            <short_desc>Wiring repairs, fans, lighting, MCB faults</short_desc>
+        </category>
+        <category>
+            <cat_id>2</cat_id>
+            <cat_name>Plumber</cat_name>
+            <icon>🔧</icon>
+            <short_desc>Leaks, taps, drain cleaning, water heaters</short_desc>
+        </category>
+        <category>
+            <cat_id>3</cat_id>
+            <cat_name>Carpenter</cat_name>
+            <icon>🪚</icon>
+            <short_desc>Furniture repair, hinges, locks, shelves</short_desc>
+        </category>
+        <category>
+            <cat_id>4</cat_id>
+            <cat_name>Cleaning</cat_name>
+            <icon>🧹</icon>
+            <short_desc>Deep home cleaning, kitchen &amp; bathroom sanitation</short_desc>
+        </category>
+        <category>
+            <cat_id>5</cat_id>
+            <cat_name>Appliance Repair</cat_name>
+            <icon>❄️</icon>
+            <short_desc>AC servicing, washing machines, refrigerators</short_desc>
+        </category>
+        <category>
+            <cat_id>6</cat_id>
+            <cat_name>Painting</cat_name>
+            <icon>🎨</icon>
+            <short_desc>Interior wall touch-up, damp proofing, accent walls</short_desc>
+        </category>
+    </categories>
+
+    <providers>
+        <provider verified="yes" available="yes">
+            <id>1</id>
+            <provider_name>Ramesh Kumar</provider_name>
+            <service_type>Electrician</service_type>
+            <area>Andheri</area>
+            <city>Mumbai</city>
+            <experience>9</experience>
+            <rating>4.6</rating>
+            <review_count>28</review_count>
+            <hourly_rate>499.00</hourly_rate>
+            <contact>
+                <phone>9821012345</phone>
+                <email>ramesh.electrician@example.com</email>
+            </contact>
+            <address>Shop 4, Greenfield Plaza, Near Andheri West Metro, Mumbai</address>
+            <bio>Licensed electrical expert with 9+ years experience handling home wiring, circuit repairs, smart switchboards, and safety installations across Andheri.</bio>
+            <offerings>
+                <item>
+                    <item_id>101</item_id>
+                    <item_title>Wiring repair &amp; short circuit fix</item_title>
+                    <item_price>499.00</item_price>
+                    <item_description>Diagnose tripping MCB, burned wires, and electrical faults safely.</item_description>
+                </item>
+                <item>
+                    <item_id>102</item_id>
+                    <item_title>Ceiling fan &amp; light fitting</item_title>
+                    <item_price>299.00</item_price>
+                    <item_description>Installation or replacement of decorative lights and fans.</item_description>
+                </item>
+                <item>
+                    <item_id>103</item_id>
+                    <item_title>Complete switchboard rewiring</item_title>
+                    <item_price>799.00</item_price>
+                    <item_description>Modular board installation with surge protection.</item_description>
+                </item>
+            </offerings>
+        </provider>
+
+        <provider verified="yes" available="yes">
+            <id>2</id>
+            <provider_name>Sunita Das</provider_name>
+            <service_type>Plumber</service_type>
+            <area>Dadar</area>
+            <city>Mumbai</city>
+            <experience>7</experience>
+            <rating>4.8</rating>
+            <review_count>34</review_count>
+            <hourly_rate>399.00</hourly_rate>
+            <contact>
+                <phone>9821023456</phone>
+                <email>sunita.plumbing@example.com</email>
+            </contact>
+            <address>12 Shivneri Heights, Gokhale Road, Dadar West, Mumbai</address>
+            <bio>Experienced certified plumber specializing in leak diagnostics, bathroom fixture replacements, and drain jetting.</bio>
+            <offerings>
+                <item>
+                    <item_id>201</item_id>
+                    <item_title>Bathroom leak detection &amp; tap fitting</item_title>
+                    <item_price>399.00</item_price>
+                    <item_description>Fix leaky taps, mixer showers, angle valves, and flush tanks.</item_description>
+                </item>
+                <item>
+                    <item_id>202</item_id>
+                    <item_title>Drain blockage removal &amp; jetting</item_title>
+                    <item_price>599.00</item_price>
+                    <item_description>High-powered unclogging for kitchen sinks and waste pipes.</item_description>
+                </item>
+                <item>
+                    <item_id>203</item_id>
+                    <item_title>Water heater (Geyser) installation &amp; piping</item_title>
+                    <item_price>749.00</item_price>
+                    <item_description>Inlet/outlet connection with safety pressure valve check.</item_description>
+                </item>
+            </offerings>
+        </provider>
+
+        <provider verified="yes" available="yes">
+            <id>3</id>
+            <provider_name>Amit Sharma</provider_name>
+            <service_type>Carpenter</service_type>
+            <area>Bandra</area>
+            <city>Mumbai</city>
+            <experience>11</experience>
+            <rating>4.7</rating>
+            <review_count>22</review_count>
+            <hourly_rate>549.00</hourly_rate>
+            <contact>
+                <phone>9821034567</phone>
+                <email>amit.carpentry@example.com</email>
+            </contact>
+            <address>Plot 88, Hill Road Art Studios, Bandra West, Mumbai</address>
+            <bio>Master artisan carpenter providing bespoke wooden furniture repairs, modular kitchen hinges, and lock fixing.</bio>
+            <offerings>
+                <item>
+                    <item_id>301</item_id>
+                    <item_title>Door lock &amp; hydraulic hinge fix</item_title>
+                    <item_price>449.00</item_price>
+                    <item_description>Fix misaligned doors and hydraulic dampers.</item_description>
+                </item>
+                <item>
+                    <item_id>302</item_id>
+                    <item_title>Custom wall shelving &amp; unit assembly</item_title>
+                    <item_price>799.00</item_price>
+                    <item_description>Floating wooden shelves and furniture assembly.</item_description>
+                </item>
+            </offerings>
+        </provider>
+
+        <provider verified="yes" available="yes">
+            <id>4</id>
+            <provider_name>Rajesh Patel</provider_name>
+            <service_type>Appliance Repair</service_type>
+            <area>Powai</area>
+            <city>Mumbai</city>
+            <experience>8</experience>
+            <rating>4.9</rating>
+            <review_count>41</review_count>
+            <hourly_rate>649.00</hourly_rate>
+            <contact>
+                <phone>9821045678</phone>
+                <email>rajesh.appliances@example.com</email>
+            </contact>
+            <address>TechZone Complex, Central Avenue, Hiranandani, Powai, Mumbai</address>
+            <bio>Specialist in inverter AC servicing, refrigerator gas refilling, and washing machine diagnostics.</bio>
+            <offerings>
+                <item>
+                    <item_id>401</item_id>
+                    <item_title>Split AC deep foam jet servicing</item_title>
+                    <item_price>599.00</item_price>
+                    <item_description>Pressure wash indoor and outdoor coils.</item_description>
+                </item>
+                <item>
+                    <item_id>402</item_id>
+                    <item_title>Washing machine motor &amp; drain pump fix</item_title>
+                    <item_price>699.00</item_price>
+                    <item_description>Diagnose spin cycle noise and drainage issues.</item_description>
+                </item>
+            </offerings>
+        </provider>
+
+        <provider verified="yes" available="yes">
+            <id>5</id>
+            <provider_name>Priya Nair</provider_name>
+            <service_type>Cleaning</service_type>
+            <area>Matunga</area>
+            <city>Mumbai</city>
+            <experience>6</experience>
+            <rating>4.8</rating>
+            <review_count>37</review_count>
+            <hourly_rate>899.00</hourly_rate>
+            <contact>
+                <phone>9821056789</phone>
+                <email>priya.cleaning@example.com</email>
+            </contact>
+            <address>Green View, King’s Circle, Matunga East, Mumbai</address>
+            <bio>Eco-friendly deep cleaning expert with single-disc floor scrubbers and non-toxic detergents.</bio>
+            <offerings>
+                <item>
+                    <item_id>501</item_id>
+                    <item_title>Kitchen deep degreasing &amp; tile scrub</item_title>
+                    <item_price>1199.00</item_price>
+                    <item_description>Exhaust chimney clean, cabinet interiors, and oil stain removal.</item_description>
+                </item>
+                <item>
+                    <item_id>502</item_id>
+                    <item_title>Bathroom sanitization &amp; descaling</item_title>
+                    <item_price>799.00</item_price>
+                    <item_description>Tile grout scrubbing and limescale removal.</item_description>
+                </item>
+            </offerings>
+        </provider>
+
+        <provider verified="yes" available="yes">
+            <id>6</id>
+            <provider_name>Vikram Malhotra</provider_name>
+            <service_type>Painting</service_type>
+            <area>Chembur</area>
+            <city>Mumbai</city>
+            <experience>10</experience>
+            <rating>4.5</rating>
+            <review_count>19</review_count>
+            <hourly_rate>1299.00</hourly_rate>
+            <contact>
+                <phone>9821067890</phone>
+                <email>vikram.painting@example.com</email>
+            </contact>
+            <address>Sai Ashish Colony, Station Road, Chembur East, Mumbai</address>
+            <bio>Professional interior house painter offering waterproof damp sealing and luxury emulsion finishes.</bio>
+            <offerings>
+                <item>
+                    <item_id>601</item_id>
+                    <item_title>Wall dampness treatment &amp; putty base</item_title>
+                    <item_price>1499.00</item_price>
+                    <item_description>Waterproof primer coat and crack filling.</item_description>
+                </item>
+                <item>
+                    <item_id>602</item_id>
+                    <item_title>Feature accent wall design painting</item_title>
+                    <item_price>1899.00</item_price>
+                    <item_description>Designer texture wall for living rooms.</item_description>
+                </item>
+            </offerings>
+        </provider>
+    </providers>
+</services>

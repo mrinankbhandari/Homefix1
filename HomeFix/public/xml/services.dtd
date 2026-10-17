@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  HomeFix Local Services Marketplace - DTD Definition
+  Validates the services catalog XML structure
+-->
+
+<!ELEMENT services (marketplace, categories, providers)>
+<!ATTLIST services
+    version CDATA #REQUIRED
+    generated CDATA #REQUIRED
+>
+
+<!ELEMENT marketplace (name, description, city, state, country, currency)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT currency (#PCDATA)>
+
+<!ELEMENT categories (category+)>
+<!ELEMENT category (cat_id, cat_name, icon, short_desc)>
+<!ELEMENT cat_id (#PCDATA)>
+<!ELEMENT cat_name (#PCDATA)>
+<!ELEMENT icon (#PCDATA)>
+<!ELEMENT short_desc (#PCDATA)>
+
+<!ELEMENT providers (provider+)>
+<!ELEMENT provider (id, provider_name, service_type, area, city, experience, rating, review_count, hourly_rate, contact, address, bio, offerings)>
+<!ATTLIST provider
+    verified (yes|no) "yes"
+    available (yes|no) "yes"
+>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT provider_name (#PCDATA)>
+<!ELEMENT service_type (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT experience (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT review_count (#PCDATA)>
+<!ELEMENT hourly_rate (#PCDATA)>
+<!ELEMENT contact (phone, email)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT bio (#PCDATA)>
+
+<!ELEMENT offerings (item+)>
+<!ELEMENT item (item_id, item_title, item_price, item_description)>
+<!ELEMENT item_id (#PCDATA)>
+<!ELEMENT item_title (#PCDATA)>
+<!ELEMENT item_price (#PCDATA)>
+<!ELEMENT item_description (#PCDATA)>

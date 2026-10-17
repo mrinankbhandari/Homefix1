@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= htmlspecialchars($pageTitle ?? 'HomeFix — A Local Services Marketplace') ?></title>
+
+    <!-- Google Fonts: Outfit (Headings) & Plus Jakarta Sans (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Leaflet CSS for MapTiler integration (No Google Maps API) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+    <!-- Custom Maximalist UI Stylesheet -->
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/style.css">
+
+    <script>
+        window.MAPTILER_API_KEY = "<?= defined('MAPTILER_API_KEY') ? MAPTILER_API_KEY : '' ?>";
+        window.BASE_URL = "<?= BASE_URL ?>";
+    </script>
+</head>
+<body>
